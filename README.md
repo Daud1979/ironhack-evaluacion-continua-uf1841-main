@@ -4,7 +4,8 @@ Completa cada ejercicio descrito en el siguiente [enunciado](https://docs.google
 
 
 
-1.- semantica ya
-2.- selectores ya
-3.- teoria de flex ya
-4.- maquetacion
+1.- ejercicio teoria y flex
+2.- ejercicio semantica
+3.- ejercicio selectores
+4.- ejercicio maquetacion
+5.- 
