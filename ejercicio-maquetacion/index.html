@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background: white;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+           margin: 15px;
+        }
+        .box-flex{
+            min-width: 330px;
+            max-width: 350px;
+            text-align: center;
+            border: 1px solid rgb(231, 229, 229);
+           
+            margin-bottom: 15px;
+        }
+        p{
+            padding: 15px 0;
+            background-color: white;
+            border-top: 1px solid rgb(231, 229, 229);
+        }
+        .box-flex>div
+        {
+            width: 100%;
+            background-color: rgb(243, 240, 240);
+            padding: 10px 0;
+        }
+        .box-flex button{
+            background-color: #6868AC ;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+        }
+        .box-flex p:first-child{
+            background-color: black;
+            color: white;
+        }
+        .box-flex p:nth-child(2){
+            background-color: rgb(243, 240, 240);
+        }
+        #box-flex__pro{
+            background-color:  #6868AC ;
+            color: white;
+        }
+        .box-flex:nth-child(odd):hover{
+            box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+        }
+        .box-flex:nth-child(even):hover{
+            box-shadow: 0 8px 12px 0 rgb(104,104,171, 0.8);  
+
+        }
+        @media screen and (min-width:365px)
+        {
+            .container{
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+           
+        } 
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="box-flex">
+            <p>
+                Básico
+            </p>
+            <p>
+                $ 9.99 / año
+            </p>
+            <p>
+                10GB de Almacenamiento
+            </p>
+            <p>
+                10 Correos Electrónicos
+            </p>
+            <p>
+                10 Dominios
+            </p>
+            <p>
+                1GB de Ancho de Banda
+            </p>
+            <div>
+                <button> Registrarse </button>
+            </div>
+        </div>
+        <div class="box-flex">
+            <p id="box-flex__pro">
+                Pro
+            </p>
+            <p>
+                $ 24.99 / año
+            </p>
+            <p>
+                25GB de Almacenamiento
+            </p>
+            <p>
+                25 Correos Electrónicos
+            </p>
+            <p>
+                25 Dominios
+            </p>
+            <p>
+                2GB de Ancho de Banda
+            </p>
+            <div>
+                <button> Registrarse </button>
+            </div>
+        </div>
+        <div class="box-flex">
+            <p>
+                Premium
+            </p>
+            <p>
+                $ 49.99 / año
+            </p>
+            <p>
+                50GB de Almacenamiento
+            </p>
+            <p>
+                50 Correos Electrónicos
+            </p>
+            <p>
+                50 Dominios
+            </p>
+            <p>
+                5GB de Ancho de Banda
+            </p>
+            <div>
+                <button> Registrarse </button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
