@@ -10,7 +10,6 @@
         span {
             font-weight: 700;
         }
-
         .dice {
             display: flex;
             border: 1px solid black;
@@ -19,7 +18,6 @@
             align-items: center;
             justify-content: space-evenly;
         }
-
         .dice>div {
             width: 50px;
             height: 50px;
@@ -41,20 +39,20 @@
         <ol>
             <li>¿Qué tipo de selector CSS es? <span>Respuesta: Es un selector de...<del>clase</del> </span></li>
             <li>¿Cuantas propiedades CSS establece este selector? <span>dos</span></li>
-            <li>¿Cuál es el valor de la segunda propiedad? <span>18 pixeles  = 	1.1 rem</span></li>
+            <li>¿Cuál es el valor de la segunda propiedad? <span>fuente de tamaño de 18 pixeles  = 	1.1 rem</span></li>
         </ol>
         <h2>Analiza el siguiente tag img</h2>
         <img src="tagimg.png" alt="">
         <ol>
             <li>¿Cuantos atributos tiene este tag? <span>3</span></li>
-            <li>¿Cuál es el valor del atributo <i>src</i>? <span>una imagen ubicada en: /w3images/team2.jpg</span></li>
+            <li>¿Cuál es el valor del atributo <i>src</i>? <span>una imagen referenciada en la url: /w3images/team2.jpg</span></li>
             <li>Imagina que tenemos la siguiente reglas CSS. ¿Crees que el tamaño de la imagen sería de 1000px? ¿Por
                 qué? <img src="big-image.png" alt=""> </li>
-            <p><span>si, porque la img tiene un atributo "alt" y un valor "John"</span></p>
+            <p><span>no, porque tiene menor especificidad que el estilo en linea</span></p>
         </ol>
         <h2>¿Cuál es el valor de la propiedad <i>font-weight</i> de este botón?</h2>
         <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-        <p><span>es de: 700 =43.75 rem</span></p>
+        <p><span>fuente con negrita de: 700 =43.75 rem</span></p>
     </div>
     <div class="container">
         <h2>Crea un dado que muestre la cara del "dos" usando flex adecuadamente.</h2>
