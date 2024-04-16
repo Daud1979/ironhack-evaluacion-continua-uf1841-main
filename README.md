@@ -4,8 +4,8 @@ Completa cada ejercicio descrito en el siguiente [enunciado](https://docs.google
 
 
 
-1.- ejercicio teoria y flex
-2.- ejercicio semantica
+1.- ejercicio teoria y flex 
+2.- ejercicio semantica  -- hecho
 3.- ejercicio selectores --hecho
-4.- ejercicio maquetacion
+4.- ejercicio maquetacion --hecho
 5.- 
