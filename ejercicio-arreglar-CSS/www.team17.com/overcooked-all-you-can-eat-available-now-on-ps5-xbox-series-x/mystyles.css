@@ -12,3 +12,15 @@
 .header .site-header__body{
     background:transparent;
 }
+.site-header .site-header__body  {
+    background-color: rgb(132, 0, 197);
+    background: transparent;
+}
+.wysiwyg
+{
+    text-align: center;
+}
+.global-social .container{
+    background-color: yellow;
+    margin: 0 auto;
+}
