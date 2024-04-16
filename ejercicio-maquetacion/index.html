@@ -15,22 +15,21 @@
             background: white;
         }
         .container{
-            display: flex;
-            flex-direction: column;
-           margin: 15px;
+            display: table;           
+            width:700px;            
+            
         }
         .box-flex{
-            min-width: 330px;
-            max-width: 350px;
+            width: 30%;           
             text-align: center;
             border: 1px solid rgb(231, 229, 229);
-           
-            margin-bottom: 15px;
-        }
-        p{
-            padding: 15px 0;
+            float: left;           
+            margin: 1.5%;
+        }        
+        p{          
             background-color: white;
             border-top: 1px solid rgb(231, 229, 229);
+            padding: 10px 0;
         }
         .box-flex>div
         {
@@ -45,15 +44,17 @@
             border: none;
         }
         .box-flex p:first-child{
-            background-color: black;
-            color: white;
+            color:#fff;
+            background-color: black; 
+        
         }
         .box-flex p:nth-child(2){
             background-color: rgb(243, 240, 240);
+       
         }
         #box-flex__pro{
             background-color:  #6868AC ;
-            color: white;
+            color: white; 
         }
         .box-flex:nth-child(odd):hover{
             box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
@@ -62,15 +63,29 @@
             box-shadow: 0 8px 12px 0 rgb(104,104,171, 0.8);  
 
         }
-        @media screen and (min-width:365px)
+         @media screen and (max-width:505px)
         {
-            .container{
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
+             .container{
+                width: 500px;
+            }  
+            .box-flex{
+                width: 45.9%;
+            }
+            .box-flex p:nth-child(3){
+                width: 98%;
+            }
+        } 
+
+        @media screen and (max-width:375px)
+        {
+             .container{
+                width: 370px;
+            }  
+            .box-flex{
+                width: 95%;
+            }
            
         } 
-        }
     </style>
 </head>
 
