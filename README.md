@@ -6,6 +6,6 @@ Completa cada ejercicio descrito en el siguiente [enunciado](https://docs.google
 
 1.- ejercicio teoria y flex
 2.- ejercicio semantica
-3.- ejercicio selectores
+3.- ejercicio selectores --hecho
 4.- ejercicio maquetacion
 5.- 
