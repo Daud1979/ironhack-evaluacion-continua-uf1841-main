@@ -9,3 +9,4 @@ Completa cada ejercicio descrito en el siguiente [enunciado](https://docs.google
 3.- ejercicio selectores --hecho
 4.- ejercicio maquetacion --hecho
 5.- ejercicio formulario --hecho
+6.- ejercicio arreglar css --hecho
