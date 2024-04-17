@@ -20,7 +20,7 @@
 {
     text-align: center;
 }
-.global-social .container{
-    background-color: yellow;
-    margin: 0 auto;
+.logos-social-networks {
+
+    justify-content: center;
 }
